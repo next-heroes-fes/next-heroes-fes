@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXT HEROES FES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="logo">NEXT HEROES FES</div>
+
+    <nav class="nav-menu" id="navMenu">
+        <a href="#news">NEWS</a>
+        <a href="#eventinfo">EVENT INFO</a>
+        <a href="#about">ABOUT</a>
+        <a href="#artist">ARTIST</a>
+    </nav>
+    <div class="menu-btn" id="menuBtn">
+        &#9776;
+    </div>
+</header>
+
+<section class="hero">
+    <video class="bg-video" autoplay muted loop playsinline>
+        <source src="video/sky.mp4.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-content">
+        <img src="pic/logo.png" alt="NEXT HEROES FES" class="main-logo">
+        <p>和歌山から次世代のヒーローを。</p>
+    </div>
+</section>
+
+<section class="news-section fade-in" id="news">
+    <h2>NEWS</h2>
+    <p class="section-subtitle">最新情報</p>
+
+    <div class="news-list">
+        <article class="news-item">
+            <button class="news-toggle">
+
+                <div class="news-left">
+                    <span class="news-date" data-date="2026-07-03">2026.07.03</span>
+                    <span class="news-title">公式ホームページを開設</span>
+                </div>
+
+                <span class="news-plus">＋</span>
+
+            </button>
+
+            <p class="news-detail">
+                NEXT HEROES FES 2026の公式ホームページを公開しました。
+            </p>
+        </article>
+    </div>
+</section>
+
+<section class="eventinfo fade-in" id="event-info">
+    <h2>EVENT INFO</h2>
+    <p class="section-subtitle">公演詳細</p>
+
+    <div class="info-container">
+
+        <div class="info-card">
+            <div class="info-icon">
+            <i class="fa-regular fa-calendar"></i>
+            </div>
+            <h3>DATE</h3>
+            <p>2026.09.23[wed]</p>      
+        </div>
+
+        <div class="info-card">
+            <div class="info-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h3>VENUE</h3>
+            <p>和歌山城　西の丸広場</p>
+        </div>
+
+        <div class="info-card">
+            <div class="info-icon">
+            <i class="fa-regular fa-clock"></i>
+            </div>
+            <h3>OPEN/START</h3>
+            <p>OPEN  <br>START </p>
+        </div>
+
+        <div class="info-card">
+            <div class="info-icon">
+            <i class="fa-solid fa-ticket"></i>
+            </div>
+            <h3>入場料</h3>
+            <p>無料</p>
+        </div>
+    </div>
+</section>
+
+<section id="about fade-in">
+    <h2>ABOUT</h2>
+    <p></p>
+</section>
+
+<section id="artist fade-in">
+    <h2>ARTIST</h2>
+    <p>出演者は後日発表。</p>
+</section>
+
+<section class="sns fade-in" id="sns">
+    <div class="sns-links">
+        <a href="https://www.instagram.com/nhfes.wakayama_official/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://x.com/NHFESofficial" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+
+        <a href="" target="_blank">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+    </div>
+</section>
+
+<section class="partners fade-in" id="partners">
+    <div class="partners-list">
+        <div class="partner-row">
+            <h3>主催</h3>
+            <p>NEXT HEROES FES 実行委員会</p>
+            <img src="pic/GATELOGO2のコピー.jpg" alt="CLUBGATE" class="gateLOGO">
+        </div>
+
+        <div class="partner-row">
+            <h3>後援</h3>
+        </div>
+
+        <div class="partner-row">
+            <h3>協賛</h3>
+        </div>
+
+        <div class="partner-row">
+            <h3>協力</h3>
+        </div>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+
+<footer class="site-footer">
+  <p class="footer-logo">NEXT HEROES FES</p>
+
+  <div class="footer-links">
+    <a href="#news">NEWS</a>
+    <a href="#event-info">EVENT INFO</a>
+    <a href="#partners">PARTNERS</a>
+    <a href="#sns">SNS</a>
+  </div>
+
+  <p class="copyright">
+    © 2026 NEXT HEROES FES
+  </p>
+</footer>
+</body>
+</html>
