@@ -500,6 +500,21 @@ html{
     color:#666;
 }
 
+@media (max-width: 600px) {
+  .event-place {
+    font-size: 32px;
+    letter-spacing: 0;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .event-time {
+    font-size: 28px;
+    line-height: 1.4;
+    margin-top: 18px;
+  }
+}
+
 .footer-contact {
     margin-top: 12px;
     font-size: 15px;
