@@ -581,6 +581,32 @@ nav ul li a {
   }
 }
 
-.foodpic{
-    width: 300px;
+.foodpic {
+    text-align: center;
+    display: block;
+    width: 70%;
+    max-width: 650px;
+    margin: 30px auto 0;
+}
+
+@media (max-width: 768px) {
+    .foodpic{
+        width: 90%;
+        max-width: none;
+    }
+}
+
+.freeMA {
+    text-align: center;
+    display: block;
+    width: 70%;
+    max-width: 650px;
+    margin: 30px auto 0;
+}
+
+@media (max-width: 768px) {
+    .freeMA{
+        width: 90%;
+        max-width: none;
+    }
 }
