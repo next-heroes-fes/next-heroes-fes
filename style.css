@@ -629,3 +629,17 @@ nav ul li a {
     }
 }
 
+.satsueistuff {
+    text-align: center;
+    display: block;
+    width: 70%;
+    max-width: 650px;
+    margin: 30px auto 0;
+}
+
+@media (max-width: 768px) {
+    .satsueistuff{
+        width: 90%;
+        max-width: none;
+    }
+}
