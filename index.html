@@ -21,7 +21,7 @@
             <li><a href="#news">お知らせ</a></li>
             <li><a href="#about">概要</a></li>
             <li><a href="#artist">アーティスト</a></li>
-            <li><a href="introduction">企業・店舗紹介</a></li>
+            <li><a href="#introduction">企業・店舗紹介</a></li>
         </ul>
     </nav>
     <div class="menu-btn" id="menuBtn">
@@ -29,7 +29,7 @@
     </div>
 </header>
 
-<section class="hero">
+<section class="hero" id="top">
     <video class="bg-video" autoplay muted loop playsinline>
         <source src="video/sky.mp4" type="video/mp4">
     </video>
@@ -63,6 +63,37 @@
     <p class="section-subtitle">最新情報</p>
 
     <div class="news-list">
+
+        <article class="news-item">
+            <button class="news-toggle">
+
+                <div class="news-left">
+                    <span class="news-date" data-date="2026-07-23">2026.07.23</span>
+                    <span class="news-title">第一弾アーティスト発表!!</span>
+                </div>
+
+                <span class="news-plus">＋</span>
+
+            </button>
+
+            <p class="news-detail">
+                NEXT HEROES FES 2026
+                第一弾出演アーティスト発表！🔥<br><br>
+
+                和歌山から、新しい音楽の景色が始まります。<br><br>
+
+                高校生・大学生・地元アーティストが一つのステージに集結。<br>
+                この日、この場所でしか生まれない出会いと熱狂を、ぜひ体感してください。<br><br>
+
+                📍2026.9.23（水・祝）<br>
+                🏰和歌山城 西の丸広場<br>
+                ●入場無料<br><br>
+
+                まだまだ発表は続きます。<br>
+                9月23日、一緒に最高の一日をつくりましょう！<br><br>
+                <img src="./pic/dai1dan.jpg" alt="dai1dan" class="dai1dan">
+            </p>
+        </article>
 
         <article class="news-item">
             <button class="news-toggle">
@@ -278,10 +309,25 @@
 
 <section class="artist fade-in" id="artist">
     <h2>アーティスト</h2>
-    <p>出演者は後日発表。</p>
+    <div class="artist-list">
+
+        <div class="artist-card">
+            <img src="./pic/Yellow Cake アー写.jpg" alt="yellowcake">
+            <p>Yellow Cake</p>
+        </div>
+        <div class="artist-card">
+            <img src="./pic/YAKITORI(近大軽音)_0.jpg" alt="yakitori" class="yakitori">
+            <p>YAKITORI(近代軽音)</p>
+        </div>
+        <div class="artist-card">
+            <img src="./pic/Nodo(信愛高校軽音)_0.jpg" alt="nodo" class="nodo">
+            <p>Nodo(信愛高校軽音)</p>
+        </div>
+
+    </div>
 </section>
 
-<section>
+<section class="intro" id="introduction">
     <h2>企業・店舗紹介</h2>
     <p>後日掲載</p>
 </section>
@@ -332,8 +378,8 @@
   <p class="footer-logo">NEXT HEROES FES</p>
 
   <div class="footer-links">
+    <a href="#top">TOP</a>
     <a href="#news">NEWS</a>
-    <a href="#event-info">EVENT INFO</a>
     <a href="#partners">PARTNERS</a>
     <a href="#sns">SNS</a>
   </div>
